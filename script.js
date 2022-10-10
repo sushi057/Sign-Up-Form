@@ -20,6 +20,7 @@ button.addEventListener('click', () => {
         pwd1.classList = '';
         pwd2.classList = '';
         section.removeChild(message);
+        alert("This is a scam website! We just stole your information. lmao");
     }
 })
 
