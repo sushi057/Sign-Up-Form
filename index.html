@@ -26,40 +26,51 @@
             </header>
             <div class="form-div">
                 <form action="#" method="post">
-                    <p>Lets do this!</p>
+                    <p id="title">Lets do this!</p>
                     <ul>
                         <li>
-                            <label for="fname">
-                                <span class="name-span">First Name</span>
-                            </label>
-                            <input type="text" id="fName" name="first_name" required/>    
-
-                            <label for="lname">
-                                <span class="name-span">Last Name</span>
-                            </label>
-                            <input type="text" id="lName" name="last_name" required/>
-                        </li>
-                           <li>
-                            <label for="email">
-                                <span class="name-span">Email</span>
-                            </label>
-                            <input type="email" id="email" name="user_mail" required/>
-
-                            <label for="ph-number">
-                                <span class="name-span">Phone Number</span>
-                            </label>
-                            <input type="tel" id="ph-number" name="phone_number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+                            <div class="item">
+                                <label for="fname">
+                                    <span class="name-span">First Name</span>
+                                </label>
+                                <input type="text" id="fName" name="first_name" required/>    
+    
+                            </div>
+                            <div class="item">
+                                <label for="lname">
+                                    <span class="name-span">Last Name</span>
+                                </label>
+                                <input type="text" id="lName" name="last_name" required/>    
+                            </div>
                         </li>
                         <li>
-                            <label for="password">
-                                <span class="name-span">Password</span>
-                            </label>
-                            <input type="password" id="password" name="password" /required>
+                            <div class="item">
+                                <label for="email">
+                                    <span class="name-span">Email</span>
+                                </label>
+                                <input type="email" id="email" name="user_mail" required/>
+                            </div>
 
-                            <label for="confirm-passsword">
-                                <span class="name-span">Confirm Password</span>
-                            </label>
-                            <input type="password" id="confirm-password" name="confirm-password" required/>
+                           <div class="item">
+                                <label for="ph-number">
+                                    <span class="name-span">Phone Number</span>
+                                </label>
+                                <input type="tel" id="ph-number" name="phone_number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+                           </div>
+                        </li>
+                        <li>
+                            <div class="item">
+                                <label for="password">
+                                    <span class="name-span">Password</span>
+                                </label>
+                                <input type="password" id="password" name="password" /required>    
+                            </div>
+                            <div class="item">
+                                <label for="confirm-passsword">
+                                    <span class="name-span">Confirm Password</span>
+                                </label>
+                                <input type="password" id="confirm-password" name="confirm-password" required/>
+                            </div>
                         </li>
                     </ul>
                     <button type="submit">Sign Up</button>
