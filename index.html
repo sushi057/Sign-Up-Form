@@ -25,7 +25,7 @@
                 <p>You <span id='know'>know</span> you want to.</p>
             </header>
             <div class="form-div">
-                <form action="#" method="post">
+                <form action="" method="post">
                     <p id="title">Lets do this!</p>
                     <ul>
                         <li>
@@ -55,15 +55,16 @@
                                 <label for="ph-number">
                                     <span class="name-span">Phone Number</span>
                                 </label>
-                                <input type="tel" id="ph-number" name="phone_number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+                                <input type="tel" id="ph-number" name="phone_number" required/>
                            </div>
                         </li>
                         <li>
-                            <div class="item">
+                            <div class="item" id="password-section">
                                 <label for="password">
                                     <span class="name-span">Password</span>
                                 </label>
                                 <input type="password" id="password" name="password" /required>    
+                                <!-- <p id="check-password">*Passwords do not match</p> -->
                             </div>
                             <div class="item">
                                 <label for="confirm-passsword">
@@ -73,7 +74,7 @@
                             </div>
                         </li>
                     </ul>
-                    <button type="submit">Sign Up</button>
+                    <button type="button">Sign Up</button>
                     <p id="last">Already have an account? <span>Make another one</span></p>
                 </form>
             </div>

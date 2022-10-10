@@ -61,7 +61,7 @@ body{
     /* justify-content: space-evenly; */
     gap: 80px;
     font-size: 22px;
-    padding: 42px;
+    padding: 48px;
 }
 
 header{
@@ -118,7 +118,7 @@ label{
 input{
     border: 2px solid rgb(119, 118, 118);
     padding: 4px 6px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 4px;
     width: 260px;
     height: 35px;
@@ -129,7 +129,12 @@ input:focus{
     border: 2px solid var(--secondary);
     box-shadow: 2px 2px var(--selected-box);
     border-radius: 5px;
-    outline: 0;
+}
+
+.error-input{
+    border: 2px solid var(--error-box);
+    box-shadow: 2px 2px;
+    border-radius: 5px;
 }
 
 button{
@@ -141,7 +146,7 @@ button{
     border-radius: 8px;
     background-color: var(--primary);
     color: white;
-    box-shadow:5px 5px #749F82;
+    box-shadow:3px 3px #749F82;
 }
 
 #last span{
@@ -149,6 +154,7 @@ button{
     color: var(--primary);
 }
 
-#password, #confirm-password{
-    
+#check-password{
+    font-size: 14px;
+    color: red;
 }
