@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto:wght@400;500&display=swap');
+
+:root{
+    --selected-box: ;
+    --error-box: ;
+    --main: ;
+    --secondary: ;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+
+}

@@ -29,19 +29,42 @@
                     <ul>
                         <li>
                             <label for="fname">
-                                <span>FIRST NAME</span>
+                                <span class="name-span">First Name</span>
                             </label>
-                            <input type="text" id="fName" name="first_name">    
-                            <label for="lname">LAST NAME</label>
-                            <input type="text" id="lName" name="last_name">
+                            <input type="text" id="fName" name="first_name" required/>    
+
+                            <label for="lname">
+                                <span class="name-span">Last Name</span>
+                            </label>
+                            <input type="text" id="lName" name="last_name" required/>
+                        </li>
+                        <li>
+                            <label for="email">
+                                <span class="name-span">Email</span>
+                            </label>
+                            <input type="email" id="email" name="user_mail" required/>
+
+                            <label for="ph-number">
+                                <span class="name-span">Phone Number</span>
+                            </label>
+                            <input type="tel" id="ph-number" name="phone_number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+                        </li>
+                        <li>
+                            <label for="password">
+                                <span class="name-span">Password</span>
+                            </label>
+                            <input type="password" id="password" name="password" /required>
+
+                            <label for="confirm-passsword">
+                                <span class="name-span">Confirm Password</span>
+                            </label>
+                            <input type="password" id="confirm-password" name="confirm-password" required/>
                         </li>
                     </ul>
+                    <button type="submit">Sign Up</button>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, <span>xcepturi?</span></p>
                 </form>
             </div>
-            <footer>
-                <button type="submit">Sign Up</button>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, <span>xcepturi?</span>e</p>
-            </footer>
         </div>
     </div>
 </body>
