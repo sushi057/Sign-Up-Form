@@ -3,9 +3,8 @@
 :root{
     --selected-box: #A8E890;
     --error-box: #E26868;
-    --main: #425F57;
+    --primary: #425F57;
     --secondary: #749F82;
-    
 }
 
 *{
@@ -31,10 +30,6 @@ body{
     position: relative;
 }
 
-.display img{
-    
-}
-
 .logo-div{
     display: flex;
     flex-direction: column;
@@ -57,4 +52,29 @@ body{
     font-size: 24px;
     color: white;
     padding: 2px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 64px;
+    font-size: 24px;
+    padding: 36px;
+}
+
+#congo{
+    color: var(--primary);
+    font-weight: 500;
+}
+
+#know{
+    font-style: italic;
+    color: var(--primary);
+}
+
+form{
+    border: 1px solid black;
+    background-color: #f3f3f1;
 }
